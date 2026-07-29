@@ -6,7 +6,7 @@
 
 **English** · [Українська](README.uk.md)
 
-[⬇ Download the latest version](https://github.com/Nox-Soft/ScreenShard-Releases/releases/latest)
+[Download the latest version](https://github.com/Nox-Soft/ScreenShard-Releases/releases/latest)
 
 [screenshard.nox-soft.studio](https://screenshard.nox-soft.studio)
 
