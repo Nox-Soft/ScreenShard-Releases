@@ -23,7 +23,9 @@ Beyond ordinary screenshots it can:
 
 - **capture long scrolling pages** — the app scrolls and stitches one tall image for you;
 - **record screen video** with system sound and microphone;
-- **recognise text in an image (OCR)** and translate it right away;
+- **recognise text in an image (OCR)** — the text appears right on your selection, so you
+  can pick out any fragment and copy just that; the language is detected automatically and
+  it can be translated on the spot;
 - **search the web by image** — Google Lens, Bing or TinEye;
 - **pick a colour from the screen** and extract a colour palette from a selection;
 - **read QR codes** directly inside your selection;
@@ -32,6 +34,8 @@ Beyond ordinary screenshots it can:
 - **enhance images** — upscale, sharpness, colour, noise;
 - **build nice mockups** — browser, macOS, Windows, Linux, phone, tablet and laptop frames
   with shadow, background and tilt;
+- **compare two screenshots** and see exactly what changed — highlight, heatmap or mask,
+  with a before/after shutter and change-by-change navigation;
 - **convert** images, video and audio between formats;
 - **apply a watermark** automatically when saving or copying.
 
@@ -88,6 +92,7 @@ Right-clicking the tray icon opens a menu with galleries, tools and settings.
 | Audio | `Alt+Shift+A` |
 | Image enhancer | `Alt+Shift+I` |
 | Mockup frames | `Alt+Shift+K` |
+| Compare images | `Alt+Shift+D` |
 | Colour picker | `Alt+Shift+P` |
 
 Every shortcut can be changed in **Settings → Hotkeys**.
@@ -154,6 +159,21 @@ be needed for it to apply everywhere.
   - a one-time download of text-recognition language data and of the models for AI background
     removal and AI upscaling (afterwards they run from the local cache);
   - loading the interface icon font.
+
+## Selecting an area
+
+While you drag out a selection — or resize one by its corner handles:
+
+- hold **Ctrl** or **Shift** for a perfect square;
+- hold **Alt** to draw from the centre, so the point you pressed becomes the middle;
+- click the **size badge** to type an exact width and height, pick a ready-made size, or
+  lock an aspect ratio that then keeps itself;
+- use the **arrow keys** to nudge by one pixel, **Shift+arrow** to resize, **Alt** for a
+  step of ten;
+- click the **padlock** on the size badge to freeze the area so you cannot move or resize
+  it by accident.
+
+You can press or release a key in the middle of dragging — the frame reshapes immediately.
 
 ## Good to know
 
