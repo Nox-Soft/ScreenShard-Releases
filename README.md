@@ -14,6 +14,14 @@
 
 ---
 
+## New in 2.1.0
+
+Formulas mode for screenshot tables (an optional download that reads fractions, roots and powers), more accurate table recognition, an eraser for annotations, outline or fill in the editor, step-by-step guides (formerly collections), tools grouped as Image / Media / Analysis, and a searchable new-tab picker. Sending a capture to a table now waits for you to press Recognize. See the platform release notes for details.
+
+## New in 2.0.0
+
+Camera-only and screen with camera recording, screenshot tables with XLSX export, collections with Markdown notes and PDF guides, editable PNG annotations, stitch correction, clipboard input and repeat area capture. See the platform release notes for details. Automatic scrolling capture is available on Windows and Linux; macOS can review existing images.
+
 ## What it is
 
 ScreenShard is a free app that lives in your system tray and helps you capture the
@@ -231,8 +239,10 @@ restart may be needed for it to apply everywhere.
 - Screenshots, recordings and recognised text are **kept on your computer only**. The app
   does not upload them anywhere on its own.
 - **Anonymous usage statistics are on by default** and can be switched off in
-  **Settings → General** ("Anonymous statistics"). Only de-identified actions (for example
-  "saved a PNG") and the OS version are sent to Google Analytics, under a random identifier
+  **Settings → General** ("Anonymous statistics"). Google Analytics receives screen names,
+  clicked buttons (repeat clicks are grouped with a count), opened tools, capture type (area,
+  window, full screen, or video), selected actions, and save format. Events are sent in batches
+  about every 20 seconds, under a random identifier
   generated on your device. **Never sent:** your screenshots, videos, recognised text,
   clipboard, file names and paths, app names, keys and passwords. With the switch off, not a
   single request is made.
@@ -246,6 +256,8 @@ restart may be needed for it to apply everywhere.
     inserts your capture there; again, only on your action;
   - a one-time download of text-recognition language data and of the models for AI background
     removal and AI upscaling (afterwards they run from the local cache);
+  - the formula recognition model (~179 MB, from RapidAI on GitHub) — only if you turn on
+    Formulas in the table tool and agree to the download; after that it works offline;
   - loading the icon font used by a few windows (most icons are built in).
 
 ## Selecting an area
